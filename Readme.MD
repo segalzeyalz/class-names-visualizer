@@ -2,8 +2,8 @@
 
 ##install
 ```
-Git clone
-
+Git clone https://github.com/segalzeyalz/class-names-visualizer.git
+docker-compose up -d   
 ```
 
 # Rate Limit 

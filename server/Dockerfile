@@ -13,4 +13,6 @@ RUN pip install -r requirements.txt --ignore-installed
 WORKDIR /app
 COPY . /app
 
-CMD gunicorn -w 4 app:app -b :8000
+EXPOSE 5000
+
+CMD gunicorn -w 4 app:app -b :5000
